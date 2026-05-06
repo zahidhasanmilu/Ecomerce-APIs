@@ -1,0 +1,25 @@
+
+Method           : PATCH
+URL              : http://127.0.0.1:8000/account/2/
+Authorizartion   : NEED
+
+----------------------------------------------------------------
+PAYLOAD:
+{
+
+    "first_name": "Zahid Hasan",
+    "last_name": "Milusuu"
+  
+}
+---------------------------------------------------------------
+RESPONSE:
+{
+    "id": 2,
+    "email": "zahidhasan.miluu@gmail.com",
+    "username": "zahid",
+    "first_name": "Zahid Hasan",
+    "last_name": "Milusuu",
+    "phone_number": null,
+    "address": null,
+    "profile_picture": "http://127.0.0.1:8000/media/user_profile/shop_owner/zahidhasan.miluu%40gmail.com/mobile-0819.jpg"
+}

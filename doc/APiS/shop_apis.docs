@@ -1,0 +1,49 @@
+#------------------------------all shops AllShops------------------------------
+method      : GET
+local url   : http://127.0.0.1:8000/shop/
+grok url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/shop/
+
+#------------------------------owner shop list UserShopListView------------------------------
+method      : GET
+local url   : http://127.0.0.1:8000/shop/user/<slug:username>/
+grok url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/shop/user/<slug:username>/
+
+
+#------------------------------shop create ShopCreateView------------------------------
+method      : POST
+local url   : http://127.0.0.1:8000/shop/create/
+grok url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/shop/create/
+
+    "name" : MUST--------------,
+    "tagline": "",
+    "description": "",
+    "logo": null,
+    "cover_image": null,
+    "contact_email": null,
+    "contact_phone": "",
+    "address": "",
+    "policies": null,
+    "settings": null
+
+#------------------------------shop detail ShopDetailView------------------------------
+method      : GET
+local url   : http://127.0.0.1:8000/shop/<id>/
+grok url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/shop/<id>/
+
+#------------------------------shop update ShopUpdateView------------------------------
+method      : PATCH
+local url   : http://127.0.0.1:8000/shop/update/<slug:slug>/
+grok url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/shop/update/id/
+
+payload:
+
+{
+    "name": "New Shop",
+    "tagline": "Your awesome tagline",
+    "description": "This is the shop description",
+    "contact_email": "shop@example.com",
+    "contact_phone": "0123456789",
+    "address": "123 Main Street, City, Country",
+    "policies": {"return_policy": "7 days", "shipping": "Free over $50"},
+    "settings": {"currency": "USD", "tax": 10}
+}

@@ -1,0 +1,13 @@
+
+Method           : GET
+URL              : hhttp://127.0.0.1:8000/account/auth/verify-email-link/<uuid:token>/
+Authorizartion   : None
+
+----------------------------------------------------------------
+PAYLOAD:
+
+---------------------------------------------------------------
+RESPONSE:
+{
+    "message": "Email verified successfully"
+}

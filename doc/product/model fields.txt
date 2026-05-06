@@ -1,0 +1,31 @@
+#category,
+name, icon, description,is_active
+get    : total list of  category,
+get    : total category product,
+
+Method   : get
+url      : https://hypnoidal-raeann-shaggily.ngrok-free.dev/products/categories/
+
+method   : get
+url      : https://hypnoidal-raeann-shaggily.ngrok-free.dev/products/categories/<id>/
+
+----------------------------------------------------------------------------------------------------------------
+
+#product
+shop, category,name,description,image, price, discount_percentage, stock, is_active
+
+get    : list of product,
+get    : product_details,
+post   : product_create, 
+patch  : product_update, 
+delete : product_delete
+search Product: 
+
+list of product,
+method : get
+url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/products/
+
+product_details
+method : get
+url    : https://hypnoidal-raeann-shaggily.ngrok-free.dev/products/<id>/
+

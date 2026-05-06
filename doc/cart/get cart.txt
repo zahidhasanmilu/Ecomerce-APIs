@@ -1,0 +1,25 @@
+Method           : GET
+URL              : http://127.0.0.1:8000/cart/
+Authorization    : NEED
+----------------------------------------------------------
+
+PAYLOAD:
+---------------------------
+
+RESPONSE:
+{
+    "id": 1,
+    "items": [
+        {
+            "id": 9,
+            "product_title": "123hhhhh",
+            "product_image": "http://127.0.0.1:8000/media/product/product-default.jpg",
+            "price": "1080.00",
+            "quantity": 10,
+            "total_price": "10800.00",
+            "product_id": "1022"
+        }
+    ],
+    "total_amount": "10800.00"
+}
+------------------------------------------------------------

@@ -1,0 +1,28 @@
+
+Method           : POST
+URL              : http://127.0.0.1:8000/account/auth/token/
+Authorizartion   : None
+
+PAYLOAD:
+{
+    "email": "zahidhasan.miluu@gmail.com",
+    "password": "#@Test123"
+}
+
+
+RESPONSE:
+{
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc2NjU1MzA5NiwiaWF0IjoxNzY1OTQ4Mjk2LCJqdGkiOiJkYTgwYjVjNWIwODM0ZjJhOWM2ZTE2MGI0MTdjOGFkMyIsInVzZXJfaWQiOiIyIn0.DwYsVXJNB5g45uqiOmkUmuwC0kN8MtK7VzUA85nsLTo",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY1OTYwMjk2LCJpYXQiOjE3NjU5NDgyOTYsImp0aSI6ImQ0ZmEyZDQ0ZTMxMDQ4YWY4MWY2NTZmM2EyZjIyMjI4IiwidXNlcl9pZCI6IjIifQ.MIhbYQumiOBuOnnvU9i6oFoJbfvb0it7BCNc6RmVc4A",
+    "user": {
+        "id": 2,
+        "first_name": "Zahid",
+        "last_name": "Hasan",
+        "username": "zahid",
+        "email": "zahidhasan.miluu@gmail.com",
+        "is_active": true,
+        "role": "shop_owner",
+        "phone_number": null,
+        "profile_picture": "example.com/media/user_profile/shop_owner/zahidhasan.miluu%40gmail.com/mobile-0819.jpg"
+    }
+}

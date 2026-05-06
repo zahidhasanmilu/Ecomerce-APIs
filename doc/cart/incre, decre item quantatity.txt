@@ -1,0 +1,29 @@
+Method           : Patch
+URL              : http://127.0.0.1:8000/cart/items/change-quantity/<item_id>/
+Authorization    : NEED
+----------------------------------------------------------
+
+PAYLOAD:
+
+{
+    "action": "decrement"
+}
+
+---------------------------
+
+RESPONSE:
+{
+    "id": 1,
+    "items": [
+        {
+            "id": 8,
+            "product_title": "123hhhhh",
+            "price": "1080.00",
+            "quantity": 6,
+            "total_price": "6480.00",
+            "product_id": "1022"
+        }
+    ],
+    "total_amount": "6480.00"
+}
+------------------------------------------------------------

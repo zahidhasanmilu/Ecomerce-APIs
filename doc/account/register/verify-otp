@@ -1,0 +1,16 @@
+
+Method           : POST
+URL              : http://127.0.0.1:8000/account/auth/verify-email-otp/<uuid:token>/
+Authorizartion   : None
+
+----------------------------------------------------------------
+PAYLOAD:
+{
+    "otp":"689404"
+}
+---------------------------------------------------------------
+RESPONSE:
+{
+    "message": "Email verified successfully"
+}
+

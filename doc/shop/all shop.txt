@@ -1,0 +1,52 @@
+METHOD           : GET
+URL              : http://127.0.0.1:8000/shop/
+Authorizartion   : 
+----------------------------------------------------------------
+PAYLOAD:
+
+---------------------------------------------------------------
+{
+    "total_items": 11,
+    "total_pages": 2,
+    "current_page": 1,
+    "next": "http://127.0.0.1:8000/shop/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": "feca9297-9b53-4a48-acbe-db3f7e877be8",
+            "username": "admin",
+            "name": " BRAND White-Davis91",
+            "tagline": "Customizable zero administration Graphic Interface",
+            "description": "Admit history view able set. Focus senior politics specific more. Within note hand arm field team. Arrive at number health long soldier sport author.\nResponse color wrong.\nFinally moment brother responsibility house. History nation book material. Become door and lead.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "randall32@example.org",
+            "contact_phone": "543-465-4966x252",
+            "address": "8674 Scott Plaza Suite 160\nNew Desireeberg, DE 77243",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": false,
+            "created_at": "2025-12-14T12:20:10.503542+06:00",
+            "updated_at": "2025-12-14T12:20:10.503569+06:00"
+        },
+        {
+            "id": "587133be-d329-4c27-bf17-189e2abb369a",
+            "username": "admin",
+            "name": " BRAND Smith-Brown92",
+            "tagline": "Innovative analyzing moratorium",
+            "description": "Side federal first science hot energy. Deal decide pull bag save. Build development wonder cut it reality sell.\nListen red church plan recent represent red without. The among ahead debate energy environment region. Wish read kid walk color.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "josephchad@example.org",
+            "contact_phone": "5599377076",
+            "address": "USNV Norris\nFPO AP 55449",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": true,
+            "created_at": "2025-12-14T12:20:10.454239+06:00",
+            "updated_at": "2025-12-14T12:20:10.454281+06:00"
+        }
+ 
+]

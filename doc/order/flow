@@ -1,0 +1,13 @@
+Add to Cart
+   ↓
+CartItem created
+   ↓
+Checkout
+   ↓
+Order + OrderItems
+   ↓
+Cart empty (items = 0)
+   ↓
+Shop owner ships
+   ↓
+Customer tracks order

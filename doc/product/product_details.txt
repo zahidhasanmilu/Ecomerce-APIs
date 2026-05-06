@@ -1,0 +1,26 @@
+
+Method           : GET
+URL              : http://127.0.0.1:8000/products/1021/
+Authorizartion   : None
+
+----------------------------------------------------------------
+
+PAYLOAD:
+
+---------------------------------------------------------------
+
+RESPONSE:
+{
+    "id": 1021,
+    "title": "Premium Wireless1 Headphones1",
+    "slug": "premium-wireless1-headphones1-2",
+    "image": "http://127.0.0.1:8000/media/product/product-default.jpg",
+    "price": "1200.00",
+    "discount_percentage": "10.00",
+    "final_price": "1080.00",
+    "stock": 50,
+    "is_active": true,
+    "shop_name": " BRAND Johnson, Fuentes and Gonzalez13",
+    "category_name": "Clothing"
+}
+------------------------------------------------------------------------------------------------

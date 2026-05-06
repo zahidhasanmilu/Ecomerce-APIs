@@ -1,0 +1,19 @@
+
+Method           : POST
+URL              : http://127.0.0.1:8000/account/auth/resend-verification/
+Authorizartion   : None
+------------------------------------------------------------------------------------
+PAYLOAD:
+{
+    "email":"zahidhasan.miluu@gmail.com"
+}
+
+------------------------------------------------------------------------------------
+
+RESPONSE:
+{
+    "message": "Verification email resent successfully.",
+    "email": "zahidhasan.miluu@gmail.com",
+    "otp": "256744",
+    "token": "c44cc157-f02c-4f28-b0b3-f49e889f6b52"
+}

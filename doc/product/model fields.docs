@@ -1,0 +1,17 @@
+#category,
+name, icon, description,is_active
+get    : total list of  category,
+get    : total category product,
+
+
+
+#product
+shop, category,name,description,image, price, discount_percentage, stock, is_active
+
+product
+
+get    : list of product, 
+get    : product_details,
+post   : product_create, 
+patch  : product_update, 
+delete : product_delete

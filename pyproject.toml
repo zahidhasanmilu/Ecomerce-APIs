@@ -1,0 +1,28 @@
+[tool.black]
+
+line-length = 88
+
+target-version = ['py311']
+
+skip-string-normalization = true
+
+exclude = '''
+
+/(
+
+  \.git
+
+  | \.mypy_cache
+
+  | \.pytest_cache
+
+  | migrations
+
+  | env
+
+  | venv
+
+)/
+
+'''
+

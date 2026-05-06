@@ -1,0 +1,30 @@
+Method           : POST
+URL              : http://127.0.0.1:8000/products/create/
+Authorization    : Bearer <token>
+
+PAYLOAD:
+{
+    "title": "Premium Wireless1 Headphones1",
+    "category": 15,
+    "price": "1200.00",
+    "discount_percentage": "10.00",
+    "stock": 50
+}
+
+
+RESPONSE:
+{
+    "id": 1021,
+    "title": "Premium Wireless1 Headphones1",
+    "price": "1200.00",
+    "discount_percentage": "10.00",
+    "stock": 50,
+    "is_active": true,
+    "shop": "2",
+    "category": 15,
+    "total_price": "1080.00",
+    "image": "http://hypnoidal-raeann-shaggily.ngrok-free.dev/media/product/product-default.jpg"
+}
+------------------------------------------------------------------------------------------------
+
+'image' field ta create er somoy use korben, json e file jabe na tai show korai ni . 

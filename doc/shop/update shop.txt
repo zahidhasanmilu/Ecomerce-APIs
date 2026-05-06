@@ -1,0 +1,23 @@
+METHOD           : PATCH
+URL              : http://127.0.0.1:8000/shop/update/<id>/
+Authorizartion   : NEED Authorizartion
+----------------------------------------------------------------
+PAYLOAD:
+{
+  "name": "apex",
+  "tagline": "foot ware"
+}
+---------------------------------------------------------------
+RESPONSE:
+{
+    "name": "apex",
+    "tagline": "foot ware",
+    "description": "for gaming mouse pad",
+    "logo": null,
+    "cover_image": null,
+    "contact_email": "contact@elegancehub.com",
+    "contact_phone": "880171XXXXXXX",
+    "address": "Fulbari Dinajpur",
+    "policies": null,
+    "settings": null
+}

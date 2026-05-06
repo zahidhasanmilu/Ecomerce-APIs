@@ -1,0 +1,125 @@
+METHOD           : GET
+URL              : http://127.0.0.1:8000/shop/<username>/
+Authorizartion   : 
+----------------------------------------------------------------
+PAYLOAD:
+
+---------------------------------------------------------------
+RESPONSE:
+{
+    "total_items": 6,
+    "total_pages": 1,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": "9244db6c-7b5d-49ba-b65e-104dc2338c8c",
+            "username": "zahid",
+            "name": " BRAND Johnson, Fuentes and Gonzalez13",
+            "tagline": "Exclusive solution-oriented intranet",
+            "description": "Line hand smile. Science political suggest establish. There how heart much pick hard.\nLetter college line rise item information shake. Until lot thousand skill rather seem pass study.\nShoulder speak police thousand remain. Growth when level common south figure nice house.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "jennifer27@example.org",
+            "contact_phone": "(684)781-7228",
+            "address": "1236 Hensley Flat Suite 941\nSheliafurt, WA 95079",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": true,
+            "created_at": "2025-12-14T12:20:10.288093+06:00",
+            "updated_at": "2025-12-14T12:20:10.288166+06:00"
+        },
+        {
+            "id": "8354f654-74cc-4394-a442-efc4c415f30d",
+            "username": "zahid",
+            "name": " BRAND Goodwin-Navarro47",
+            "tagline": "Optional multi-tasking methodology",
+            "description": "Study brother large rich during. Cover ready writer physical.\nChoice form also tonight. Soon program main season pick. Health staff result particular of drug act television.\nNews east couple bag land new subject. Necessary generation hotel sometimes.\nParticipant home consider theory reach manager.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "brightdaniel@example.com",
+            "contact_phone": "(412)784-8144",
+            "address": "423 Murphy Common Apt. 087\nKellyfort, KS 36163",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": false,
+            "created_at": "2025-12-14T12:20:10.154374+06:00",
+            "updated_at": "2025-12-14T12:20:10.154443+06:00"
+        },
+        {
+            "id": "77e4a19e-864d-4bf5-ba3e-0fabe2df65b4",
+            "username": "zahid",
+            "name": " BRAND Waller Group80",
+            "tagline": "Multi-channeled radical hardware",
+            "description": "Pretty strong house happen inside office. Rest civil suffer couple party couple race. Picture politics forget civil soldier support.\nBefore point protect modern. Less still large head save produce that. Approach choice fear professor enough sit drive.\nBad likely case what number great.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "zneal@example.org",
+            "contact_phone": "402-646-6278",
+            "address": "3158 Hannah Turnpike\nBrownland, MN 99055",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": false,
+            "created_at": "2025-12-14T12:20:10.143646+06:00",
+            "updated_at": "2025-12-14T12:20:10.143671+06:00"
+        },
+        {
+            "id": "0e1349e4-a393-4546-8a91-de88e67ab0ae",
+            "username": "zahid",
+            "name": " BRAND Delacruz Ltd58",
+            "tagline": "Optimized client-server solution",
+            "description": "Cold election stop guess deal low than support. Writer apply rest test consumer up. Often society much future current shake.\nNewspaper medical least mean carry. Deep alone whether stop great system.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "amartinez@example.net",
+            "contact_phone": "632.541.3153",
+            "address": "4424 Kaitlyn Mountain Apt. 899\nEast Dianashire, SD 10562",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": true,
+            "created_at": "2025-12-14T12:20:10.116648+06:00",
+            "updated_at": "2025-12-14T12:20:10.116683+06:00"
+        },
+        {
+            "id": "467d0e07-d8cc-4885-ab55-2a25c045f230",
+            "username": "zahid",
+            "name": " BRAND Webb-Lewis48",
+            "tagline": "Re-engineered web-enabled knowledge user",
+            "description": "Role eat feel yes serious may piece. Man enjoy security second population I.\nEvidence me continue get feeling. Fact quite blue inside organization second.\nBuilding live issue improve from program. Blood decision up pull growth body. Might perform difference.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "ian51@example.com",
+            "contact_phone": "001-567-593-0916",
+            "address": "20796 Daniel Harbors\nMcclainberg, MO 24068",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": true,
+            "created_at": "2025-12-14T12:20:10.030263+06:00",
+            "updated_at": "2025-12-14T12:20:10.030297+06:00"
+        },
+        {
+            "id": "2af301b5-4e66-4555-ae60-50f9480e86fb",
+            "username": "zahid",
+            "name": " BRAND Bailey-Case25",
+            "tagline": "Synergistic optimal conglomeration",
+            "description": "Edge watch beat. Station catch indeed realize plan baby almost. Gas within site hot involve.\nToday leader certainly trouble. Adult suggest area.\nNew world town need. Former health detail particularly new. Body hard fire drop model type car.",
+            "logo": null,
+            "cover_image": null,
+            "contact_email": "mbailey@example.net",
+            "contact_phone": "618-585-8012",
+            "address": "920 Clarke Causeway Apt. 919\nSouth Cathy, MI 31449",
+            "policies": null,
+            "settings": null,
+            "status": "active",
+            "is_verified": true,
+            "created_at": "2025-12-14T12:20:10.010614+06:00",
+            "updated_at": "2025-12-14T12:20:10.010641+06:00"
+        }
+    ]
+}

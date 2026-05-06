@@ -1,0 +1,25 @@
+
+METHOD           : POST
+URL              : http://127.0.0.1:8000/account/auth/register/
+Authorizartion   : None
+
+----------------------------------------------------------------
+PAYLOAD:
+{
+    "first_name": "Zahid",
+    "last_name": "Hasan",
+    "username": "minions",
+    "email": "minions.milu889@gmail.com",
+    "role": "shop_owner",
+    "password": "#@Test123",
+    "confirm_password": "#@Test123"
+}
+---------------------------------------------------------
+RESPONSE:
+{
+    "message": "Registration successful. To activate your account, check your email.",
+    "email": "zahidhasan.miluu@gmail.com",
+    "role": "shop_owner",
+    "otp": "846971",
+    "token": "c44cc157-f02c-4f28-b0b3-f49e889f6b52"
+}

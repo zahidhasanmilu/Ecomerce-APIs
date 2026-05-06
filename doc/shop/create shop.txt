@@ -1,0 +1,31 @@
+METHOD           : POST
+URL              : http://127.0.0.1:8000/shop/create/
+Authorizartion   : NEED Authorizartion
+----------------------------------------------------------------
+PAYLOAD:
+
+{
+    "name": "Precision 2.0",
+    "tagline": "gaming mouse pad",
+    "description": "for gaming mouse pad",
+    "contact_email": "contact@elegancehub.com",
+    "contact_phone": "880171XXXXXXX",
+    "address": "Fulbari Dinajpur"
+}
+---------------------------------------------------------------
+RESPONSE:
+{
+    "id": "f2705bdf-6c50-4598-8314-391452ad5b70",
+    "username": "zahid",
+    "email": "zahidhasan.miluu@gmail.com",
+    "name": "Precision 2.0",
+    "tagline": "gaming mouse pad",
+    "description": "for gaming mouse pad",
+    "logo": null,
+    "cover_image": null,
+    "contact_email": "contact@elegancehub.com",
+    "contact_phone": "880171XXXXXXX",
+    "address": "Fulbari Dinajpur",
+    "policies": null,
+    "settings": null
+}

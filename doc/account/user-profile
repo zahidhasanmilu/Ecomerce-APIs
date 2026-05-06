@@ -1,0 +1,23 @@
+
+Method           : GET
+URL              : http://127.0.0.1:8000/account/2/
+Authorizartion   : None
+
+----------------------------------------------------------------
+PAYLOAD:
+// {
+//     "email": "minions.milu889@gmail.com",
+//     "otp":"632065"
+// }
+---------------------------------------------------------------
+RESPONSE:
+{
+    "id": 2,
+    "email": "zahidhasan.miluu@gmail.com",
+    "username": "zahid",
+    "first_name": "Zahid",
+    "last_name": "Hasan",
+    "phone_number": null,
+    "address": null,
+    "profile_picture": "http://127.0.0.1:8000/media/user_profile/shop_owner/zahidhasan.miluu%40gmail.com/mobile-0819.jpg"
+}

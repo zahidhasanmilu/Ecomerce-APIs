@@ -1,0 +1,23 @@
+Method           : POST
+URL              : http://127.0.0.1:8000/cart/items/add/
+Authorization    : NEED
+----------------------------------------------------------
+
+PAYLOAD:
+{
+    "product_id": "1022"
+}
+
+---------------------------
+
+RESPONSE:
+{
+    "id": 15,
+    "product_title": "Snow Possible 44",
+    "product_image": "http://127.0.0.1:8000/media/product/product-default.jpg",
+    "price": "447.10",
+    "quantity": 1,
+    "total_price": "447.10",
+    "product_id": "1130"
+}
+------------------------------------------------------------
