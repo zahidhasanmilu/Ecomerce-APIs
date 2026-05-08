@@ -4,7 +4,7 @@
 #Cloning the repository
 1. Create a repository using this template or clone the repository
     ```    
-    git clone https://github.com/VTS-learn/NarazBETK.git
+    git clone https://github.com/zahidhasanmilu/Ecomerce-APIs.git
     ```
 
 2. Create a virtual environment
@@ -21,7 +21,7 @@
    ```
 4.  Move into the directory where we have the project files :
     ```
-    cd NarazBETK
+    cd Ecomerce-APIs
     ```
 5. Install modules
    ```
